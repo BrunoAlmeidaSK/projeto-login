@@ -1,11 +1,103 @@
 @charset "UTF-8";
 
+* {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
-
-:root{
+:root {
     --cor01: #F29999;
     --cor02: #F27979;
     --cor03: #BF4F45;
     --cor04: #590F08;
     --cor05: #D7D9D8;
 }
+
+body , html{
+    background-color: #590F08;
+    height: 100vh;
+    width: 100vw;
+   
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login { 
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    overflow: hidden;
+    
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
+
+    transition: width .3s , height .3s;
+    transition-timing-function: ease;
+    
+}
+
+section#login > div#imagem{
+    background: #590F08 url(../imagens/login.jpg) center center no-repeat;
+    background-size: cover;
+    height: 200px;
+    display: block;
+}
+
+div#formulario{
+    display: block;
+    padding: 10px;
+}
+
+
+h1{
+    text-align: center;
+}
+
+ input#iemail {
+    padding: 5px 10px;
+    margin-top: 3px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+input#isenha {
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+input.btn1 {
+    background-color: #98D2EB;
+    font-weight: bolder;
+    padding: 8px 10px;
+    margin-top: 3px;
+    border-radius: 5px;
+    width: 235px;
+}
+
+input.btn2 {
+    background-color: #98D2EB;
+    font-weight: bolder;
+    padding: 8px 10px;
+    margin-top: 1px;
+    border-radius: 5px;
+    width: 235px;
+}
+
+input.btn1:hover {
+    background-color: #41baee;
+}
+
+input.btn2:hover {
+    background-color: #41baee;
+} 
