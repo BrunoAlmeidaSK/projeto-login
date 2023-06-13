@@ -147,45 +147,6 @@ form > a.botao > span{
     
 }
 
- /* input#iemail {
-    padding: 5px 10px;
-    margin-top: 3px;
-    border-radius: 5px;
-    width: 200px;
-}
-
-input#isenha {
-    padding: 5px 10px;
-    border-radius: 5px;
-    width: 200px;
-}
-
-input.btn1 {
-    background-color: #98D2EB;
-    font-weight: bolder;
-    padding: 8px 10px;
-    margin-top: 3px;
-    border-radius: 5px;
-    width: 235px;
-}
-
-input.btn2 {
-    background-color: #98D2EB;
-    font-weight: bolder;
-    padding: 8px 10px;
-    margin-top: 1px;
-    border-radius: 5px;
-    width: 235px;
-}
-
-input.btn1:hover {
-    background-color: #41baee;
-}
-
-input.btn2:hover {
-    background-color: #41baee;
-}  */
-
 span{
     font-size: 23px;
 }
