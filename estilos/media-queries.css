@@ -26,27 +26,6 @@
         transform: translate(-50%, -50%);
     }
 
-    div.campo1 {
-        position: absolute;
-        top: 105px;
-        left: 48%;
-        transform: translate(-50%, -50%);
-    }
-
-    div.campo2 {
-        position: absolute;
-        top: 140px;
-        left: 48%;
-        transform: translate(-50%, -50%);
-    }
-
-    div.campo3 {
-        position: absolute;
-        top: 200px;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
 }
 
 @media screen and (min-width: 992px) {
